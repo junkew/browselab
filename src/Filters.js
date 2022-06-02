@@ -42,12 +42,12 @@ const Filters = ({
     <PriceRangeFields>
       Price range:
       <Checkbox
-        label="$"
+        label="EUR"
         checked={priceRange.$}
         onChange={setPriceRangeFilter('$')}
       />
       <Checkbox
-        label="$$"
+        label="EUREUR"
         checked={priceRange.$$}
         onChange={setPriceRangeFilter('$$')}
       />
